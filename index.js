@@ -9,7 +9,7 @@ let iconList = []
 app.get("/", (req, res) => {
     res.json({
         message: "👋 Hello World !",
-        credit: "IIIlIIIIl on github",
+        credit: "❤ IIIlIIIIl on github",
         endpoints: {
             getIcon: "/icon/:iconName/:type",
             getIconsName: '/icons'
